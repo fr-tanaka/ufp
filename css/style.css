@@ -2199,7 +2199,6 @@ h3 {
 	margin-bottom: 3.2%;
 	line-height: 4vw;
 	color: #11B7DA;
-	display: none;
 }
 
 .Equity_Track_group {
@@ -2210,7 +2209,6 @@ h3 {
 .Equity_Track_list {
 	display: flex;
 	justify-content: space-between;
-	display: none;
 }
 
 .Equity_Track_list_top {
@@ -2228,11 +2226,12 @@ h3 {
 	font-size: 1.2vw;
 }
 
-.box {
+
+/*.box {
 	width        : auto;
 	height       : 100px;
-	background   : #eff3f6;
-  }
+	background   : #fff;
+  }*/
 
 .card_Company_Name {
 	margin-top: 2vw;
@@ -2244,11 +2243,16 @@ h3 {
 }
 
 .card_heading {
-	padding-top: 2vw;
 	/*font-size: 1.5vw;*/
 	color: #11B7DA;
 	line-height: 1.5;
 	padding-top: 7%;
+}
+
+.Equity_Track_card_box img {
+    object-fit: contain;
+    width: 100%;
+    height: 15vw;
 }
 
 
@@ -2297,6 +2301,12 @@ h3 {
 	.card_Company_Name {
 		margin-top: 5vw;
 	}
+	.Equity_Track_card_box img {
+    object-fit: contain;
+    width: 100%;
+    height: 15vw;
+    height: 45vw;
+}
 }
 
 
@@ -2377,7 +2387,7 @@ h3 {
 	width: 30%;
 	text-align: left;
 	margin-right: 5%;
-	}
+}
 
 .ufp_team_card:last-child {
 	margin-right: 0;
@@ -2388,10 +2398,10 @@ h3 {
 	display: flex;
 	/*justify-content: space-between;*/
 	width: 90%;
-	}
+}
 
-.ufp_team_list_top {
-	margin-bottom: 5vw;
+.ufp_team_list:not(:first-of-type) {
+	margin-top: 5vw;
 }
 
 .ufp_team_name_heading {
@@ -3014,10 +3024,107 @@ footer {
 	
 }
 
+/* loader */
+.loader {
+  position: absolute;
+  top: -2rem;
+  right: 2rem;
+  font-size: 10px;
+  margin: 50px auto;
+  text-indent: -9999em;
+  width: 4em;
+  height: 4em;
+  border-radius: 50%;
+  background: #11b7da;
+  background: -moz-linear-gradient(left, #11b7da 10%, rgba(17,183,218, 0) 42%);
+  background: -webkit-linear-gradient(left, #11b7da 10%, rgba(17,183,218, 0) 42%);
+  background: -o-linear-gradient(left, #11b7da 10%, rgba(17,183,218, 0) 42%);
+  background: -ms-linear-gradient(left, #11b7da 10%, rgba(17,183,218, 0) 42%);
+  background: linear-gradient(to right, #11b7da 10%, rgba(17,183,218, 0) 42%);
+  -webkit-animation: load3 1.4s infinite linear;
+  animation: load3 1.4s infinite linear;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+}
 
-
-
-
+.portfolio .loader {
+  top: -1.5rem;
+  left: 2rem;
+  right: auto;
+  width: 4.5rem;
+  height: 4.5rem;
+}
+.loader:before {
+  width: 50%;
+  height: 50%;
+  background: #11b7da;
+  border-radius: 100% 0 0 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+}
+.loader:after {
+  background: #EFF3F6;
+  width: 75%;
+  height: 75%;
+  border-radius: 50%;
+  content: '';
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.portfolio .loader:after {
+  background: #ffffff;
+}
+@-webkit-keyframes load3 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes load3 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.Equity_Track_wrapper {
+  min-height: 300px;
+  overflow: hidden;
+}
+.Equity_Track_list {
+  position: relative;
+  flex-wrap: wrap;
+}
+.Equity_Track_card {
+  margin-bottom: 2.5rem;
+  box-sizing: border-box;
+}
+.Equity_Track_list::after{
+  content:"";
+	display: block;
+  width:30%;
+}
+.portfolio .active .loader {
+  display: none;
+}
+.news {
+  overflow: hidden;
+  position: relative;
+}
 
 /*///////////////// english /////////////////*/
 
