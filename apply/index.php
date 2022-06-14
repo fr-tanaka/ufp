@@ -135,9 +135,9 @@
 		<label class="tab_item" for="all">Equity Track</label>
 		<p class="formdltxt01">応募に関する資料は<a href="../img/ufp_equity_track.pdf" download>こちら</a>からダウンロードできます。</p>
 		
- 		<!---<input id="programming" type="radio" name="tab_item">--->
+ 		<input id="programming" type="radio" name="tab_item">
 		<label class="tab_item tab_item_margin grant_tab" for="programming">Grant Track</label>
-		<p class="formdltxt02 grant_tab_txt">応募に関する資料は<!---<a href="../img/ufp_outline_Grant.pdf" download>--->こちら<!---</a>--->からダウンロードできます。</p>
+		<p class="formdltxt02 grant_tab_txt">応募に関する資料は<a href="../img/ufp_outline_Grant.pdf" download>こちら</a>からダウンロードできます。</p>
 		
 		
 		<!--- Equity Track --->

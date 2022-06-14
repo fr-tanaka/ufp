@@ -2670,7 +2670,8 @@ h3 {
 .apply .formdltxt01 {
 	position: absolute;
 	top: 5vw;
-    left: 16vw;
+	left: 16vw;
+	z-index: 1;
 }
 
 .formdltxt01 a {
@@ -2687,6 +2688,7 @@ h3 {
 	position: absolute;
 	top: 5vw;
     right: 19vw;
+		z-index: 1;
 }
 .apply .tab_item_margin {
     margin-left: 6%;
@@ -2868,6 +2870,7 @@ h3 {
 
 
 /* 210811 追記 */
+/*
 .grant_tab {
 	color: #fff;
 	background: #c1c1c1;
@@ -2877,7 +2880,7 @@ h3 {
 .grant_tab_txt {
 	color: #989898;
 	}
-
+*/
 
 
 
