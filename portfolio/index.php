@@ -7,7 +7,7 @@
 	
     <link rel="SHORTCUT ICON" href="../img/favicon.ico">
     <link rel="stylesheet" type="text/css" href="../css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="../css/style2.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
     <meta name="viewport" content="width=device-width,intial=1">
 	
 	<!--OGP-->
