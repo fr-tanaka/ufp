@@ -108,7 +108,7 @@
 			
  			<!---<input id="programming" type="radio" name="tab_item">--->
 			<label class="tab_item tab_item_margin grant_tab" for="programming">Grant Track</label>
-			<p class="formdltxt02 grant_tab_txt">You can download the application materials <!---<a href="../../img/en_ufp_grant_track.pdf" download>--->here.<!--</a>--></p>
+			<p class="formdltxt02 grant_tab_txt">You can download the application materials <a href="../../img/en_ufp_grant_track.pdf" download>here.</a></p>
 		
 			
 			<!--- Equity Track --->

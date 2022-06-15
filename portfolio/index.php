@@ -1,25 +1,13 @@
 <!DOCTYPE html>
 <html lang="ja">
-	
 <head>
-	
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-PC9VYP2N26"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-PC9VYP2N26');
-</script>	
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <title>PORTFOLIO | UFP -UTEC Founders Program-</title>
 	
     <link rel="SHORTCUT ICON" href="../img/favicon.ico">
     <link rel="stylesheet" type="text/css" href="../css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/style2.css">
     <meta name="viewport" content="width=device-width,intial=1">
 	
 	<!--OGP-->
@@ -66,108 +54,13 @@
 	</section>
 	
 	
-	<p class="portfolio_txt">決定次第掲載致します。</p>
-	
-	
 	<section class="Equity_Track_contents">
 		<div class="Equity_Track_wrapper">
 			<div class="Equity_Track_box">
 				<p class="page_tit_txt03 slide-left">Equity Track</p>
 				<div class="Equity_Track_group">
-					<ul class="Equity_Track_list Equity_Track_list_top slide-left">
-						<li class="Equity_Track_card">
-							<div class="Equity_Track_card_box">
-								<img src="" alt="" class="box">
-								<p class="card_Company_Name">会社名</p>
-								<p class="card_heading">投資／支給時期<br>
-								<span class="card_txt">0000年00月00日</span></p>
-								<p class="card_heading">事業領域・内容の説明<br>
-									<span class="card_txt">
-										テキストテキストテキストテキ
-										ストテキストテキストテキスト
-										テキストテキスト
-									</span>
-								</p>
-							</div><!--Equity_Track_card_box-->
-						</li><!--Equity_Track_card-->
-						<li class="Equity_Track_card">
-							<div class="Equity_Track_card_box">
-								<img src="" alt="" class="box">
-								<p class="card_Company_Name">会社名</p>
-								<p class="card_heading">投資／支給時期<br>
-								<span class="card_txt">0000年00月00日</span></p>
-								<p class="card_heading">事業領域・内容の説明<br>
-									<span class="card_txt">
-										テキストテキストテキストテキ
-										ストテキストテキストテキスト
-										テキストテキスト
-									</span>
-								</p>
-							</div><!--Equity_Track_card_box-->
-						</li><!--Equity_Track_card-->
-						<li class="Equity_Track_card">
-							<div class="Equity_Track_card_box">
-								<img src="" alt="" class="box">
-								<p class="card_Company_Name">会社名</p>
-								<p class="card_heading">投資／支給時期<br>
-								<span class="card_txt">0000年00月00日</span></p>
-								<p class="card_heading">事業領域・内容の説明<br>
-									<span class="card_txt">
-										テキストテキストテキストテキ
-										ストテキストテキストテキスト
-										テキストテキスト
-									</span>
-								</p>
-							</div><!--Equity_Track_card_box-->
-						</li><!--Equity_Track_card-->
-					</ul><!--Equity_Track_list-->
-					<ul class="Equity_Track_list slide-left">
-						<li class="Equity_Track_card">
-							<div class="Equity_Track_card_box">
-								<img src="" alt="" class="box">
-								<p class="card_Company_Name">会社名</p>
-								<p class="card_heading">投資／支給時期<br>
-								<span class="card_txt">0000年00月00日</span></p>
-								<p class="card_heading">事業領域・内容の説明<br>
-									<span class="card_txt">
-										テキストテキストテキストテキ
-										ストテキストテキストテキスト
-										テキストテキスト
-									</span>
-								</p>
-							</div><!--Equity_Track_card_box-->
-						</li><!--Equity_Track_card-->
-						<li class="Equity_Track_card">
-							<div class="Equity_Track_card_box">
-								<img src="" alt="" class="box">
-								<p class="card_Company_Name">会社名</p>
-								<p class="card_heading">投資／支給時期<br>
-								<span class="card_txt">0000年00月00日</span></p>
-								<p class="card_heading">事業領域・内容の説明<br>
-									<span class="card_txt">
-										テキストテキストテキストテキ
-										ストテキストテキストテキスト
-										テキストテキスト
-									</span>
-								</p>
-							</div><!--Equity_Track_card_box-->
-						</li><!--Equity_Track_card-->
-						<li class="Equity_Track_card">
-							<div class="Equity_Track_card_box">
-								<img src="" alt="" class="box">
-								<p class="card_Company_Name">会社名</p>
-								<p class="card_heading">投資／支給時期<br>
-								<span class="card_txt">0000年00月00日</span></p>
-								<p class="card_heading">事業領域・内容の説明<br>
-									<span class="card_txt">
-										テキストテキストテキストテキ
-										ストテキストテキストテキスト
-										テキストテキスト
-									</span>
-								</p>
-							</div><!--Equity_Track_card_box-->
-						</li><!--Equity_Track_card-->
-			
+          <ul id="equityList" class="Equity_Track_list Equity_Track_list_top slide-left">
+            <div class="loader">Loading...</div>
 					</ul><!--Equity_Track_list-->
 				</div><!--Equity_Track_group-->
 			</div><!--Equity_Track_box-->
@@ -177,100 +70,8 @@
 			<div class="Equity_Track_box">
 				<p class="page_tit_txt03 slide-left">Grant Track</p>
 				<div class="Equity_Track_group">
-					<ul class="Equity_Track_list Equity_Track_list_top slide-left">
-						<li class="Equity_Track_card">
-							<div class="Equity_Track_card_box">
-								<img src="" alt="" class="box">
-								<p class="card_Company_Name">会社名</p>
-								<p class="card_heading">投資／支給時期<br>
-								<span class="card_txt">0000年00月00日</span></p>
-								<p class="card_heading">事業領域・内容の説明<br>
-									<span class="card_txt">
-										テキストテキストテキストテキ
-										ストテキストテキストテキスト
-										テキストテキスト
-									</span>
-								</p>
-							</div><!--Equity_Track_card_box-->
-						</li><!--Equity_Track_card-->
-						<li class="Equity_Track_card">
-							<div class="Equity_Track_card_box">
-								<img src="" alt="" class="box">
-								<p class="card_Company_Name">会社名</p>
-								<p class="card_heading">投資／支給時期<br>
-								<span class="card_txt">0000年00月00日</span></p>
-								<p class="card_heading">事業領域・内容の説明<br>
-									<span class="card_txt">
-										テキストテキストテキストテキ
-										ストテキストテキストテキスト
-										テキストテキスト
-									</span>
-								</p>
-							</div><!--Equity_Track_card_box-->
-						</li><!--Equity_Track_card-->
-						<li class="Equity_Track_card">
-							<div class="Equity_Track_card_box">
-								<img src="" alt="" class="box">
-								<p class="card_Company_Name">会社名</p>
-								<p class="card_heading">投資／支給時期<br>
-								<span class="card_txt">0000年00月00日</span></p>
-								<p class="card_heading">事業領域・内容の説明<br>
-									<span class="card_txt">
-										テキストテキストテキストテキ
-										ストテキストテキストテキスト
-										テキストテキスト
-									</span>
-								</p>
-							</div><!--Equity_Track_card_box-->
-						</li><!--Equity_Track_card-->
-					</ul><!--Equity_Track_list-->
-					<ul class="Equity_Track_list slide-left">
-						<li class="Equity_Track_card">
-							<div class="Equity_Track_card_box">
-								<img src="" alt="" class="box">
-								<p class="card_Company_Name">会社名</p>
-								<p class="card_heading">投資／支給時期<br>
-								<span class="card_txt">0000年00月00日</span></p>
-								<p class="card_heading">事業領域・内容の説明<br>
-									<span class="card_txt">
-										テキストテキストテキストテキ
-										ストテキストテキストテキスト
-										テキストテキスト
-									</span>
-								</p>
-							</div><!--Equity_Track_card_box-->
-						</li><!--Equity_Track_card-->
-						<li class="Equity_Track_card">
-							<div class="Equity_Track_card_box">
-								<img src="" alt="" class="box">
-								<p class="card_Company_Name">会社名</p>
-								<p class="card_heading">投資／支給時期<br>
-								<span class="card_txt">0000年00月00日</span></p>
-								<p class="card_heading">事業領域・内容の説明<br>
-									<span class="card_txt">
-										テキストテキストテキストテキ
-										ストテキストテキストテキスト
-										テキストテキスト
-									</span>
-								</p>
-							</div><!--Equity_Track_card_box-->
-						</li><!--Equity_Track_card-->
-						<li class="Equity_Track_card">
-							<div class="Equity_Track_card_box">
-								<img src="" alt="" class="box">
-								<p class="card_Company_Name">会社名</p>
-								<p class="card_heading">投資／支給時期<br>
-								<span class="card_txt">0000年00月00日</span></p>
-								<p class="card_heading">事業領域・内容の説明<br>
-									<span class="card_txt">
-										テキストテキストテキストテキ
-										ストテキストテキストテキスト
-										テキストテキスト
-									</span>
-								</p>
-							</div><!--Equity_Track_card_box-->
-						</li><!--Equity_Track_card-->
-			
+          <ul id="grantList"  class="Equity_Track_list Equity_Track_list_top slide-left">
+            <div class="loader">Loading...</div>
 					</ul><!--Equity_Track_list-->
 				</div><!--Equity_Track_group-->
 			</div><!--Equity_Track_box-->
@@ -290,6 +91,7 @@
 	<script src="../js/script.js" async></script>
 	<script src="../js/jquery-fadethis.min.js"></script>
 	<script src="../js/scroll-event.js"></script>
+  <script src="../js/wordpress-embedding.js"></script>
 	
 	<!--- スクロール表示 --->
 	<script>

@@ -81,88 +81,75 @@
 			</div>
 		</div>
 	</section>
-	
-	
-	
-	
-	
+
+	<?php
+		$teams = [
+			[
+				"name" => "林 佑樹",
+				"image" => "team_hayashi.jpg",
+				"text" => "東大在学中より、アドテクスタートアップでのデータサイエンス業務を経て、2016年冬よりUTECにリサーチアシスタントとして参画、2019年よりアソシエイト&データサイエンティストとして国内外IT投資に従事。K-POPと減量を愛するコスメコンシェルジュ"
+			],
+			[
+				"name" => "Kiran Mysore",
+				"image" => "team_kiran.jpg",
+				"text" => "元AI研究者。2018年1月にUTECに参画し、インド、シンガポール、米国のディープテック企業6社への投資をリード。インドの小さな町で育ち、2014年に東京大学で修士号を取得。ソフトウェアエンジニア、社会起業家、オープンイノベーションコンサルタント、ベンチャーキャピタルなど、さまざまな顔を持つ。趣味は、ThinkSpecting（思考＋内省）、モラルキャピタリズムの考察、FCバルセロナの応援。"
+			],
+			[
+				"name" => "小林 宏彰",
+				"image" => "team_kobayashi.jpg",
+				"text" => "日本生まれ、日本育ち。臨床医(救急集中治療)、医療機器ベンチャー、MBA留学を経て2019年にUTEC参画。ヘルスケア/ライフサイエンス中心にテック系全般を担当。運営チームダントツの最年長。趣味は野菜の栽培、テニス、子育て。"
+			],
+			[
+				"name" => "陳 嘉洋",
+				"image" => "team_lenny.jpg",
+				"text" => "カリフォルニア大学サンタバーバラ校数学科卒業。PwCアドバイザリー合同会社の事業再生部門、レノボ・ジャパン株式会社を経て、カリフォルニア大学ロサンゼルス校経営学修士（MBA）。同校卒業後、2021年7月よりUTEC参画。AI・量子コンピュータを中心にIT分野におけるシード/アーリーステージ投資を担当。趣味はサーフィン、テニス、読書"
+			],
+			[
+				"name" => "野間 円",
+				"image" => "team_noma.jpg",
+				"text" => "東京大学工学系研究科修士課程在学、医用工学分野で研究中。2021年からインターンとしてUTECに参画。興味分野は再生医療、ヘルスケア、アート。趣味は歌、ピアノ、絵。"
+			],
+			[
+				"name" => "趙 誼",
+				"image" => "team_chou.jpg",
+				"text" => "東京大学総合文化研究科博士課程在学中。サーキュラーエコノミーと意思決定について研究中。中国語、日本語、英語、台湾語、ドイツ語、韓国語のマルチリンガル。2022年からインターンとしてUTECに参画、現在はRAとして本プログラムに参画。興味分野はWeb3.0、AI、培養肉、アート。趣味は旅行、言語学習、芸術祭巡り。"
+			]
+		];
+	?>
 	<section class="ufp_team_box">
 		<div class="ufp_team_block">
 			<p class="page_tit_txt03">UFP運営チーム</p>
 			<div class="ufp_team_list_block">
-				<ul class="ufp_team_list ufp_team_list_top">					
-					<li class="ufp_team_card">
-						<div class="ufp_team_card_bo slide-leftx">
-							<img src="../img/team_suzuki.jpg" alt="" class="box2">
-							<p class="ufp_team_name_heading">鈴木慈温</p>
-							<p class="card_txt">
-								日本生まれ、スイス育ち。ケンブリッジ大学工学部卒業。ギリアド・サイエンシズでのインターン（サンフランシスコ）、高砂香料株式会社での医薬製造技術の営業（ロンドン）を経て2020年11月にUTECに参画。UTECでは主にライフサイエンス・ヘルスケアとIT分野を担当。趣味はスポーツと楽器を習う事。
-							</p>
-							<div class="sns_btn_block">
-								<a href=""><img class="sns_btn sns_btn_space" src="../img/fb_btn.png" alt="facebook"></a>
-								<a href=""><img class="sns_btn" src="../img/tw_btn.png" alt="twitter"></a>
-							</div>
-						</div><!--ufp_team_card_box-->
-					</li><!--ufp_team_list-->
-
-					<li class="ufp_team_card">
-						<div class="ufp_team_card_box slide-left">
-							<img src="../img/team_hayashi.jpg" alt="" class="box2">
-							<p class="ufp_team_name_heading">林佑樹</p>
-							<p class="card_txt">
-								東大在学中より、アドテクスタートアップでのデータサイエンス業務を経て、2016年冬よりUTECにリサーチアシスタントとして参画、2019年よりアソシエイト&データサイエンティストとして国内外IT投資に従事。K-POPと減量を愛するコスメコンシェルジュ
-							</p>
-							<div class="sns_btn_block">
-								<a href=""><img class="sns_btn sns_btn_space" src="../img/fb_btn.png" alt="facebook"></a>
-								<a href=""><img class="sns_btn" src="../img/tw_btn.png" alt="twitter"></a>
-							</div>
-						</div><!--ufp_team_card_box-->
-					</li><!--ufp_team_list-->
-
-					<li class="ufp_team_card">
-						<div class="ufp_team_card_box slide-left">
-							<img src="../img/team_kiran.jpg" alt="" class="box2">
-							<p class="ufp_team_name_heading">Kiran Mysore</p>
-							<p class="card_txt">
-								元AI研究者。2018年1月にUTECに参画し、インド、シンガポール、米国のディープテック企業6社への投資をリード。インドの小さな町で育ち、2014年に東京大学で修士号を取得。ソフトウェアエンジニア、社会起業家、オープンイノベーションコンサルタント、ベンチャーキャピタルなど、さまざまな顔を持つ。趣味は、ThinkSpecting（思考＋内省）、モラルキャピタリズムの考察、FCバルセロナの応援。
-							</p>
-							<div class="sns_btn_block">
-								<a href=""><img class="sns_btn sns_btn_space" src="../img/fb_btn.png" alt="facebook"></a>
-								<a href=""><img class="sns_btn" src="../img/tw_btn.png" alt="twitter"></a>
-							</div>
-						</div><!--ufp_team_card_box-->
-					</li><!--ufp_team_list-->
-				</ul>
-
-				<ul class="ufp_team_list ufp_team_list_bottom">
-					<li class="ufp_team_card">
-						<div class="ufp_team_card_box slide-left">
-							<img src="../img/team_kobayashi.jpg" alt="" class="box2">
-							<p class="ufp_team_name_heading">小林宏彰</p>
-							<p class="card_txt">
-								日本生まれ、日本育ち。臨床医(救急集中治療)、医療機器ベンチャー、MBA留学を経て2019年にUTEC参画。ヘルスケア/ライフサイエンス中心にテック系全般を担当。運営チームダントツの最年長。趣味は野菜の栽培、テニス、子育て。
-							</p>
-							<div class="sns_btn_block">
-								<a href=""><img class="sns_btn sns_btn_space" src="../img/fb_btn.png" alt="facebook"></a>
-								<a href=""><img class="sns_btn" src="../img/tw_btn.png" alt="twitter"></a>
-							</div>
-						</div><!--ufp_team_card_box-->
-					</li><!--ufp_team_list-->
-					
-					<li class="ufp_team_card">
-						<div class="ufp_team_card_box slide-left">
-							<img src="../img/team_noma.jpg" alt="" class="box2">
-							<p class="ufp_team_name_heading">野間</p>
-							<p class="card_txt">
-								東京大学工学系研究科修士課程在学、医用工学分野で研究中。2021年からインターンとしてUTECに参画。興味分野は再生医療、ヘルスケア、アート。趣味は歌、ピアノ、絵。
-							</p>
-							<div class="sns_btn_block">
-								<a href=""><img class="sns_btn sns_btn_space" src="../img/fb_btn.png" alt="facebook"></a>
-								<a href=""><img class="sns_btn" src="../img/tw_btn.png" alt="twitter"></a>
-							</div>
-						</div><!--ufp_team_card_box-->
-					</li><!--ufp_team_list-->
-				</ul>
+				<?php
+					$i = 1;
+					$count = 0;
+					$length = count($teams);
+					foreach ($teams as $team) {
+						if($i == 1) {
+							echo '<ul class="ufp_team_list">';
+						}
+				?>
+						<li class="ufp_team_card">
+							<div class="ufp_team_card_bo slide-leftx">
+								<img src="../img/<?php echo $team["image"]; ?>" alt="" class="box2">
+								<p class="ufp_team_name_heading"><?php echo $team["name"]; ?></p>
+								<p class="card_txt"><?php echo $team["text"]; ?></p>
+								<div class="sns_btn_block">
+									<a href=""><img class="sns_btn sns_btn_space" src="../img/fb_btn.png" alt="facebook"></a>
+									<a href=""><img class="sns_btn" src="../img/tw_btn.png" alt="twitter"></a>
+								</div>
+							</div><!--ufp_team_card_box-->
+						</li><!--ufp_team_list-->
+				<?php
+						$count++;
+						if(($i == 3)||($count == $length)) {
+							echo '</ul>';
+							$i = 1;
+						}else{
+							$i++;
+						}
+					}
+				?>
 			</div>
 		</div>
 	</section>
