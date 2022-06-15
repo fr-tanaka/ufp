@@ -153,18 +153,14 @@
 		</div>
 	</section>
 	
-	
-	
-	
-	
 	<section class="news">
 		<h2>お知らせ</h2>
 		
 		<div class="news_box">
 			<ul>
 				<li>
-					<p class="news_date">2021.5.17</p>
-					<p class="nees_txt">UFPサイト公開</p>
+					<p class="news_date">2022.6.15</p>
+					<p class="nees_txt">Grant Track第2期の募集開始</p>
 				</li>
 				<li>
 					<p class="news_date">2021.5.17</p>
@@ -173,10 +169,6 @@
 			</ul>
 		</div>
 	</section>
-	
-	
-	
-	
 	
 	<section class="top_about">
 		<div class="top_contents">
